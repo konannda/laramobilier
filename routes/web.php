@@ -26,3 +26,36 @@ Route::get('/annonce/single/{slug}', 'AnnoncesController@detail');
 Route::get('/annonce/admin', 'AnnoncesController@listAdmin');
 Route::get('/delete/{slug}', 'AnnoncesController@suprim');
 Route::match(['get','post'], 'annonce/update/{slug}', 'AnnoncesController@modif');
+
+
+
+
+
+
+
+
+
+
+Route::get('/', function () {
+  return view('acceuille');
+});
+
+Route::get('/interface', function () {
+  return view('interface');
+});
+
+Route::get('/single', function () {
+  return view('single');
+});
+
+Route::get('/proprietaire', function () {
+  return view('proprietaire');
+});
+
+Route::get('/search', function () {
+  return view('search');
+});
+
+Route::get('/requete', function () {
+  return view('requete');
+});
