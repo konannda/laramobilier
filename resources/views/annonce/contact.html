@@ -1,0 +1,84 @@
+@extends('../layout');
+
+@section('content')
+	<!-- page -->
+	<section class="page-section blog-page">
+		<div class="container">
+			<div class="section-title">
+				<h3>Espace Annonceurs</h3>
+				<p>Publiez toutes vos annonces immobilières ici</p>
+			</div>
+			<form class="contact-form">
+				<div class="row">
+					<div class="col-md-6">
+						<label for="nom">Nom :</label>
+						<input type="text" name="nom" class="form-control" placeholder="Votre name">
+					</div>
+					<div class="col-md-6">
+						<label for="email">Email :</label>
+						<input type="emal"  name="email" class="form-control" placeholder="Votre email">
+					</div>
+					<div class="col-md-6">
+						<label for="prenom">Prenoms :</label>
+						<input type="text"  name="prenom" class="form-control" placeholder="Your name">
+					</div>
+					<div class="col-md-6">
+						<label for="tel">Téléphone :</label>
+						<input type="text"  name="tel" class="form-control" placeholder="Your email">
+					</div>
+					<div class="col-md-6">
+						<label for="appelation">Appelation :</label>
+						<input type="text"  name="appelation" class="form-control" placeholder="Your name">
+					</div>
+					<div class="col-md-6">
+						<label for="description">Description</label>
+						<input type="text" name="description" class="form-control" placeholder="Your email">
+					</div>
+					<div class="col-md-6">
+						<label for="localite">Localité :</label>
+						<input type="text" name="localite" class="form-control" placeholder="Your name">
+					</div>
+					<div class="col-md-6">
+						<label for="prix">Prix :</label>
+						<input type="text" name="prix" class="form-control" placeholder="Your email">
+					</div>
+					<div class="col-md-6">
+						<label for="superficie">Superficie :</label>
+						<input type="text" name="superficie" class="form-control" placeholder="Your name">
+					</div>
+					<div class="col-md-6">
+						<label for="chambre">Chambre :</label>
+						<input type="text" name="chambre" class="form-control" placeholder="Your email">
+					</div>
+					<div class="col-md-6">
+						<label for="salon">Salon :</label>
+						<input type="text" name="salon" class="form-control" placeholder="Your name">
+					</div>
+					<div class="col-md-6">
+						<label for="douche">Douche :</label>
+						<input type="text" name="douche" class="form-control" placeholder="Your email">
+					</div>
+					<div class="col-md-6">
+						<label for="garage">Garage :</label>
+						<input type="text" name="garage" class="form-control" placeholder="Your name">
+					</div>
+					<div class="col-md-6">
+						<label for="type_offre">Type d'offre :</label>
+						<select name="type_offre" class="form-control">
+							<option value="vente">Vente</option>
+							<option value="location">Location</option>
+						</select>
+					</div>
+					<div class="col-md-6">
+						<label for="">Image :</label>
+						<input type="file" name="imge" class="form-control" placeholder="Your name">
+					</div>
+					<div class="col-md-8">
+						<button type="submit" class="site-btn">SUMMIT NOW</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</section>
+	<!-- page end -->
+@endsection
